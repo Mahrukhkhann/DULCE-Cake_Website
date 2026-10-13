@@ -343,3 +343,55 @@ h2 em {
 .card-meta span {
   color: var(--muted);
 }
+/* Specialties */
+.center-heading {
+  text-align: center;
+  max-width: 690px;
+  margin: 0 auto 55px;
+}
+
+.center-heading > p:last-child {
+  color: var(--muted);
+  margin-top: 18px;
+}
+
+.specialty-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.specialty {
+  padding: 34px 28px 42px;
+  min-height: 250px;
+  position: relative;
+  border-right: 1px solid var(--line);
+}
+
+.specialty:last-child {
+  border-right: 0;
+}
+
+.number {
+  color: var(--rose);
+  font-size: .68rem;
+  letter-spacing: .12em;
+}
+
+.specialty-icon {
+  display: block;
+  font-size: 2.2rem;
+  margin: 25px 0 15px;
+}
+
+.specialty h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.45rem;
+}
+
+.specialty p {
+  color: var(--muted);
+  font-size: .86rem;
+  margin-top: 8px;
+}
